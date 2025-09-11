@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Gaegu&family=Heebo:wght@100..900&family=Inconsolata:wght@200..900&display=swap");
+@font-face {
+  font-family: "Inconsolata";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+  src: url("./assets/fonts/inconsolata-v36-latin-regular.woff2") format("woff2");
+}
+
+.font-inconsolata {
+  font-family: "Inconsolata", monospace;
+}
+
+@font-face {
+  font-family: "Heebo";
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/heebo-v27-latin-regular.woff2") format("woff2");
+}
+
+.font-heebo {
+  font-family: "Heebo", sans-serif;
+}
+
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-background: var(--background);
+  --color-text: var(--text);
+  --color-projects: var(--projects);
+  --color-card: var(--card);
+  --color-card-hover: var(--card-hover);
+  --color-button: var(--button);
+  --color-button-hover: var(--button-hover);
+  --opacity-icon-hover: var(--icon-hover);
+}
+
+:root {
+  --color-background: #ffffff;
+  --color-text: #21243d;
+  --color-projects: #faeded;
+  --color-card: #ffffff;
+  --color-button: #8d8d8d;
+  --color-button-hover: #858484;
+  --color-card-hover: #fef9f9;
+  --icon-hover: 0.7;
+}
+
+.dark {
+  --color-background: #1e1e24;
+  --color-text: #f5dadc;
+  --color-projects: #3d3f4b;
+  --color-card: #2c2f3a;
+  --color-button: #393d4d;
+  --color-button-hover: #313547;
+  --color-card-hover: #262935;
+  --icon-hover: 0.7;
+}
+
+.icon {
+  transition: opacity 0.15s ease-in-out;
+}
+
+.icon:hover {
+  opacity: var(--opacity-icon-hover);
+}
+
+.icon-github-light {
+  content: url("/images/github-light.svg");
+}
+
+.dark .icon-github-light {
+  content: url("/images/github.svg");
+}

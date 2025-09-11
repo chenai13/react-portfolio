@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&family=Heebo:wght@100..900&family=Inconsolata:wght@200..900&display=swap');
+
+@font-face {
+  font-family: 'Inconsolata';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+src: url('./assets/fonts/inconsolata-v36-latin-regular.woff2') format('woff2');
+
+}
+
+@import "tailwindcss";
