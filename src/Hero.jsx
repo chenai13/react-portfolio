@@ -24,7 +24,7 @@ function Hero() {
             href="https://drive.google.com/file/d/1uYt3SZqBrZzJC6eq5yg7RcR_v5AewGyt/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-[var(--color-button)] hover:bg-[var(--color-button-hover)] inline-block w-50 transition duration-150 ease-in-out hover:scale-105 font-heeborounded-md text-white py-2 px-4 border-4 border-transparent text-center"
+            className="bg-button hover:bg-button-hover inline-block w-50 transition duration-150 ease-in-out hover:scale-105 font-heeborounded-md text-white py-2 px-4 border-4 border-transparent text-center"
           >
             My Resume
           </a>
@@ -66,12 +66,12 @@ function Hero() {
       </section>
       <div className="bg-projects text-text font-inconsolata py-10">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 flex flex-col">
-          {/* Section Title */}
+         
           <p className="text-xl font-semibold mb-6 text-center lg:text-left">
             My projects
           </p>
 
-          {/* Card Row */}
+         
           <div className="flex flex-col items-center space-y-6 md:space-y-6 lg:flex-row lg:justify-center lg:space-y-0 lg:space-x-6">
             <Card
               link="https://chenai13.github.io/crochet-assistant/"
