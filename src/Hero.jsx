@@ -21,7 +21,7 @@ function Hero() {
             more projects coming soon!
           </p>
           <a
-            href="https://docs.google.com/document/d/1rFDvnuaxqHY8_WBJCYKoQ1QW6OXR1yqD/edit?usp=sharing&ouid=102378930502161151701&rtpof=true&sd=true"
+            href="https://drive.google.com/file/d/1uYt3SZqBrZzJC6eq5yg7RcR_v5AewGyt/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-[var(--color-button)] hover:bg-[var(--color-button-hover)] inline-block w-50 transition duration-150 ease-in-out hover:scale-105 font-heeborounded-md text-white py-2 px-4 border-4 border-transparent text-center"
